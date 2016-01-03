@@ -22,26 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Set list items
         infos = new AndroidInfoList();
-        for (; i<11; ++i) {
-            infos.add(new AndroidInfo(android.R.drawable.sym_def_app_icon, "icon_" + (i)));
-        }
         binding.setInfos(infos);
-
-        findViewById(R.id.addItem).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                infos.list.add(new AndroidInfo(android.R.drawable.sym_def_app_icon, "icon_" + i++));
-            }
-        });
-
-        findViewById(R.id.removeItem).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (!infos.list.isEmpty()) {
-                    infos.list.remove(0);
-                }
-            }
-        });
-
     }
 }

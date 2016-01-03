@@ -23,12 +23,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="@{infos.add}"
                 android:text="Add"/>
             <Button
                 android:id="@+id/removeItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="@{infos.remove}"
                 android:text="Remove"/>
         </LinearLayout>
 
