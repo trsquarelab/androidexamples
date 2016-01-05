@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:id="@+id/fruitNameText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:layout_margin="2dp"
+        android:gravity="center_horizontal"
+        android:text="name"/>
+
+    <TextView
+        android:id="@+id/vitaminCText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:gravity="center_horizontal"
+        android:text="description"/>
+
+</LinearLayout>
