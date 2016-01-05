@@ -3,8 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:bind="http://schemas.android.com/apk/res-auto">
     <data>
-        <variable name="heading" type="com.example.databindinglistview.ListHeading"/>
-        <variable name="infos" type="com.example.databindinglistview.AndroidInfoList"/>
+        <variable name="heading" type="com.example.databindingrecyclerview.ListHeading"/>
+        <variable name="infos" type="com.example.databindingrecyclerview.AndroidInfoList"/>
     </data>
 
     <LinearLayout
@@ -42,9 +42,10 @@
             android:layout_width="match_parent"
             android:layout_height="62dp"/>
 
-        <ListView
+        <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scrollbars="vertical"
             bind:items="@{infos.list}"/>
 
     </LinearLayout>
