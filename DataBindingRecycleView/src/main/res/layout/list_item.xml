@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:bind="http://schemas.android.com/apk/res-auto">
     <data>
-        <variable name="info" type="com.example.databindinglistview.AndroidInfo"/>
+        <variable name="info" type="com.example.databindingrecyclerview.AndroidInfo"/>
     </data>
 
     <LinearLayout
@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="2">
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,6 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@{info.name}"/>
-
     </LinearLayout>
+
 </layout>
