@@ -8,7 +8,7 @@ public class AndroidInfoList {
     private int mTotalCount;
 
     public AndroidInfoList() {
-        for (mTotalCount =1; mTotalCount <11; ++mTotalCount) {
+        for (mTotalCount = 1; mTotalCount < 11; ++mTotalCount) {
             add(new AndroidInfo(android.R.drawable.sym_def_app_icon, "icon_" + (mTotalCount)));
         }
     }

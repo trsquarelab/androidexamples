@@ -24,18 +24,18 @@ public class RecyclerItemOperationActivity extends AppCompatActivity implements 
 
         setContentView(R.layout.main2);
 
-        mRecyclerView  = (RecyclerView)findViewById(R.id.alphaList);
+        mRecyclerView = (RecyclerView) findViewById(R.id.alphaList);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         mAdapter = new ClickableFruitAdapter(FruitData.getList1(), this);
         mRecyclerView.setAdapter(mAdapter);
 
-        for (FruitData d: FruitData.getList2()) {
+        for (FruitData d : FruitData.getList2()) {
             mExtraFruits.add(d);
         }
 
-        RadioGroup opGroup = (RadioGroup)findViewById(R.id.opGroup);
+        RadioGroup opGroup = (RadioGroup) findViewById(R.id.opGroup);
         opGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {

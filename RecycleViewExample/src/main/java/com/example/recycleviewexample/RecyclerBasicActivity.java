@@ -16,7 +16,7 @@ public class RecyclerBasicActivity extends AppCompatActivity {
 
         setContentView(R.layout.main1);
 
-        mRecyclerView  = (RecyclerView)findViewById(R.id.alphaList);
+        mRecyclerView = (RecyclerView) findViewById(R.id.alphaList);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(new BasicFruitAdapter(FruitData.getList1()));

@@ -67,7 +67,7 @@ public class SimpleItemDecorator extends RecyclerView.ItemDecoration {
             mPaintFill.setColor(ColorList[mRandom.nextInt(ColorList.length)]);
 
             // Fill the view by drawing a rectangle with rounded corner
-            c.drawRoundRect (rect, 20, 20, mPaintFill);
+            c.drawRoundRect(rect, 20, 20, mPaintFill);
         }
     }
 
@@ -87,7 +87,7 @@ public class SimpleItemDecorator extends RecyclerView.ItemDecoration {
             RectF rect = getBounds(child);
 
             // Fill the view by drawing a rectangle with rounded corner
-            c.drawRoundRect (rect, 10, 10, mPaintStroke);
+            c.drawRoundRect(rect, 10, 10, mPaintStroke);
         }
     }
 

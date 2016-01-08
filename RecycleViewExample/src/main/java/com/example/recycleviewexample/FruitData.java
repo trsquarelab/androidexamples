@@ -10,7 +10,7 @@ public class FruitData {
     }
 
     static final FruitData[] getList1() {
-        return new FruitData[] {
+        return new FruitData[]{
                 new FruitData("Apricots", "5000"),
                 new FruitData("Apple", "5000"),
                 new FruitData("Banana", "10.000"),
@@ -22,7 +22,7 @@ public class FruitData {
     }
 
     static final FruitData[] getList2() {
-        return new FruitData[] {
+        return new FruitData[]{
                 new FruitData("Kiwi", "70.000"),
                 new FruitData("Lemon", "40.000"),
                 new FruitData("Lychee", "23.000"),

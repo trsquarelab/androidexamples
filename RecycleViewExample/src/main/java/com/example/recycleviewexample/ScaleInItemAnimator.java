@@ -48,6 +48,7 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
     private static class MoveInfo {
         public ViewHolder holder;
         public int fromX, fromY, toX, toY;
+
         private MoveInfo(ViewHolder holder, int fromX, int fromY, int toX, int toY) {
             this.holder = holder;
             this.fromX = fromX;
@@ -60,10 +61,12 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
     private static class ChangeInfo {
         public ViewHolder oldHolder, newHolder;
         public int fromX, fromY, toX, toY;
+
         private ChangeInfo(ViewHolder oldHolder, ViewHolder newHolder) {
             this.oldHolder = oldHolder;
             this.newHolder = newHolder;
         }
+
         private ChangeInfo(ViewHolder oldHolder, ViewHolder newHolder,
                            int fromX, int fromY, int toX, int toY) {
             this(oldHolder, newHolder);
@@ -277,6 +280,7 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
             public void onAnimationStart(View view) {
                 dispatchMoveStarting(holder);
             }
+
             @Override
             public void onAnimationCancel(View view) {
                 if (deltaX != 0) {
@@ -286,6 +290,7 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
                     ViewCompat.setTranslationY(view, 0);
                 }
             }
+
             @Override
             public void onAnimationEnd(View view) {
                 animation.setListener(null);
@@ -337,6 +342,7 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
                 public void onAnimationStart(View view) {
                     dispatchChangeStarting(changeInfo.oldHolder, true);
                 }
+
                 @Override
                 public void onAnimationEnd(View view) {
                     oldViewAnim.setListener(null);
@@ -365,6 +371,7 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
                 public void onAnimationStart(View view) {
                     dispatchChangeStarting(changeInfo.newHolder, false);
                 }
+
                 @Override
                 public void onAnimationEnd(View view) {
                     newViewAnimation.setListener(null);
@@ -579,19 +586,28 @@ public class ScaleInItemAnimator extends SimpleItemAnimator {
         cancelAll(mChangeAnimations);
         dispatchAnimationsFinished();
     }
+
     void cancelAll(List<ViewHolder> viewHolders) {
         for (int i = viewHolders.size() - 1; i >= 0; i--) {
             ViewCompat.animate(viewHolders.get(i).itemView).cancel();
         }
     }
+
     private static class VpaListenerAdapter implements ViewPropertyAnimatorListener {
         @Override
-        public void onAnimationStart(View view) {}
+        public void onAnimationStart(View view) {
+        }
+
         @Override
-        public void onAnimationEnd(View view) {}
+        public void onAnimationEnd(View view) {
+        }
+
         @Override
-        public void onAnimationCancel(View view) {}
-    };
+        public void onAnimationCancel(View view) {
+        }
+    }
+
+    ;
 
     private static final int AnimDuration = 500;
 

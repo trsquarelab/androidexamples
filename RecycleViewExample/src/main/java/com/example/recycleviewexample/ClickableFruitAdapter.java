@@ -25,7 +25,7 @@ public class ClickableFruitAdapter extends RecyclerView.Adapter<ClickableFruitAd
     private ArrayList<FruitData> mFruits = new ArrayList<FruitData>();
 
     public ClickableFruitAdapter(FruitData[] desc, FruitItemClickedListener l) {
-        for (FruitData d: desc) {
+        for (FruitData d : desc) {
             mFruits.add(d);
         }
         mListener = l;

@@ -24,7 +24,7 @@ public class BasicFruitAdapter extends RecyclerView.Adapter<BasicFruitAdapter.Vi
     private ArrayList<FruitData> mFruits = new ArrayList<FruitData>();
 
     public BasicFruitAdapter(FruitData[] desc) {
-        for (FruitData d: desc) {
+        for (FruitData d : desc) {
             mFruits.add(d);
         }
     }
