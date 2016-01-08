@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RecycleViewExample</string>
+    <string name="example_basic">Simple RecycleView</string>
+    <string name="example_op">RecycleView Operations</string>
+    <string name="example_anim">RecycleView Animations</string>
+    <string name="example_deco">RecycleView Decorations</string>
 </resources>
