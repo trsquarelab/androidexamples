@@ -1,3 +1,4 @@
 include ':RecycleViewExample'
+include ':HelloRetroLambda'
 include ':DataBindingListView'
 include ':DataBindingRecycleView'

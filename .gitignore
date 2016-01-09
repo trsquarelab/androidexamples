@@ -12,6 +12,8 @@ lt application files
 bin/
 gen/
 
+*.orig
+
 # Gradle files
 .idea
 .gradle/
