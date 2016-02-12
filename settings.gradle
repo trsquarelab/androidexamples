@@ -1,4 +1,5 @@
 include ':RecycleViewExample'
+include ':CollapsibleMenu'
 include ':HelloRetroLambda'
 include ':DataBindingListView'
 include ':DataBindingRecycleView'
