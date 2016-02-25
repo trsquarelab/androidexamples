@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cityLondon"
+            android:title="London" />
+        <item
+            android:id="@+id/cityTokyo"
+            android:title="Tokyo" />
+        <item
+            android:id="@+id/cityNewYork"
+            android:title="New York" />
+        <item
+            android:id="@+id/cityMexicoCity"
+            android:title="Mexico City" />
+        <item
+            android:id="@+id/cityDelhi"
+            android:title="Delhi" />
+        <item
+            android:id="@+id/cityCairo"
+            android:title="Cairo" />
+        <item
+            android:id="@+id/cityMoscow"
+            android:title="Moscow" />
+        <item
+            android:id="@+id/cityParis"
+            android:title="Paris" />
+        <item
+            android:id="@+id/cityBeijing"
+            android:title="Beijing" />
+        <item
+            android:id="@+id/cityMadrid"
+            android:title="Madrid" />
+        <item
+            android:id="@+id/cityToronto"
+            android:title="Toronto" />
+        <item
+            android:id="@+id/citySingapore"
+            android:title="Singapore" />
+        <item
+            android:id="@+id/citySydney"
+            android:title="Sydney" />
+    </group>
+
+
+</menu>
