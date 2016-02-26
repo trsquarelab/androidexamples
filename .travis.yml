@@ -16,4 +16,4 @@ before_install:
    
 
 
-script: "bash gradlew build"
+script: "bash gradlew assemble"
