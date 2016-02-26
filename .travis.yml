@@ -5,4 +5,4 @@ android:
         - extra
 
 
-script: "sh gradlew build"
+script: "bash gradlew build"
