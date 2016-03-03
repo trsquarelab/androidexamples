@@ -2,6 +2,10 @@ language: android
 jdk:
     - oraclejdk7
     - oraclejdk8
+
+env:
+    - MALLOC_ARENA_MAX=2
+
 android:
     components:
         - tools
