@@ -20,4 +20,10 @@ before_install:
    
 
 
-script: "bash gradlew assemble"
+script:
+    - bash gradlew :CollapsibleMenu:assemble
+    - bash gradlew :DataBindingListView:assemble
+    - bash gradlew :DataBindingRecycleView:assemble
+    - bash gradlew :HelloRetroLambda:assemble
+    - bash gradlew :RecycleViewExample:assemble
+    - bash gradlew :BottomSheets:assemble
