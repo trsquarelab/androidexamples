@@ -5,6 +5,10 @@ Android Examples
 
 Here I will keep some of my demo application for Android. 
 
+* BottomSheets
+
+  http://chikkooos.blogspot.jp/2016/03/android-bottom-sheets-tutorial.html
+
 * DataBindingListView
   
   http://chikkooos.blogspot.jp/2016/01/data-binding-in-android-listview.html
@@ -29,4 +33,3 @@ Here I will keep some of my demo application for Android.
  * Custom Animator - http://chikkooos.blogspot.jp/2015/12/creating-custom-animation-in.html
  * Custom Decorator - http://chikkooos.blogspot.jp/2015/12/a-simple-implementationof-item.html
  
-
