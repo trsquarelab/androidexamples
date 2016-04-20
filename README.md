@@ -1,7 +1,7 @@
 Android Examples
 ================
 
-[![Travis-CI](https://travis-ci.org/chikkutechie/androidexamples.svg?branch=master)](https://travis-ci.org/chikkutechie/androidexamples)
+[![Travis-CI](https://travis-ci.org/trsquarelab/androidexamples.svg?branch=master)](https://travis-ci.org/trsquarelab/androidexamples)
 
 Here I will keep some of my demo application for Android. 
 
